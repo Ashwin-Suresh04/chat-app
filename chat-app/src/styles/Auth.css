@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+
+}
+
+.auth{
+    
+    /* background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);  */
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.auth1{
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.hello{
+    color: rgb(70, 33, 33);
+    margin-bottom: 10px;
+}
+.para{
+    color: black;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    text-align: center;
+
+}
+.btnsignin{
+ color: white;
+ background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+ padding: 10px; 
+ border: none;
+ border-radius: 5px;  
+}
+h2{
+    margin-bottom: 30px;
+    
+}
+
+@media screen and (min-width: 768px){
+    .auth1{
+        height: 400px;
+        width: 400px;
+        margin-bottom: 0;
+    }
+}
